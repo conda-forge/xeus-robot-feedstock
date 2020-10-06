@@ -26,11 +26,13 @@ requirements:
     - cppzmq >=4.4.1,<5
     - zeromq
     - xtl >=0.6.8,<0.7
+    - python
     - xeus-python
     - pybind11 >=2.2.4,<3.0
     - nlohmann_json >=3.3.0,<4.0
     - pybind11_json >=0.2.2,<0.3
   run:
+    - python
     - xeus-python
     - robotframework-interpreter
     - robotframework-lsp

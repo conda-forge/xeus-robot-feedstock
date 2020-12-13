@@ -1,6 +1,6 @@
 {% set name = "xeus-robot" %}
-{% set version = "0.0.4" %}
-{% set sha256 = "30a1fe8cf9cc1a3bc5581a93a3bfde039f08e268bc110c611bfccfa3d645b606" %}
+{% set version = "0.0.5" %}
+{% set sha256 = "68c48761f386bb586be3403082fb06aeae946c705b82e937adec73ed001f87d8" %}
 
 package:
   name: {{ name|lower }}

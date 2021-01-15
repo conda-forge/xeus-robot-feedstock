@@ -1,6 +1,6 @@
 {% set name = "xeus-robot" %}
-{% set version = "0.1.0" %}
-{% set sha256 = "bfec067dfbb6c732745574c7202fe20df423bf083241c840dac50f1a9d3a8356" %}
+{% set version = "0.1.1" %}
+{% set sha256 = "3c8b905a57883062247133323206511edb220e4a9cb671a2b8da7d1545cbe39e" %}
 
 package:
   name: {{ name|lower }}
@@ -37,7 +37,7 @@ requirements:
   run:
     - python
     - xeus-python >=0.9.5,<0.10
-    - robotframework-interpreter  >=0.6.1,<0.7
+    - robotframework-interpreter  >=0.6.2,<0.7
     - robotframework-lsp
     - jupyterlab_robotmode
 

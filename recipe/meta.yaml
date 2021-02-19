@@ -1,6 +1,6 @@
 {% set name = "xeus-robot" %}
-{% set version = "0.2.2" %}
-{% set sha256 = "20d2135c1026ff6baf4c0834c9b91cc29b9f5368671b2c2e2ab24a308694bf5d" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "ab89ad1f6310d1a041fd48edc30cc7281b0da8726d5cc822f392ac7d7da709cd" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: true  # [py36]
   run_exports:
     - {{ pin_subpackage(name, max_pin='x.x') }}
@@ -30,15 +30,15 @@ requirements:
     - zeromq
     - xtl >=0.7.0,<0.8
     - python
-    - xeus >=1.0.0,<2.0
-    - xeus-python >=0.10.2,<0.11
+    - xeus >=1.0.1,<2.0
+    - xeus-python >=0.11.1,<0.12
     - pybind11 >=2.2.4,<3.0
     - nlohmann_json >=3.3.0,<4.0
     - pybind11_json >=0.2.2,<0.3
   run:
     - python
-    - xeus-python >=0.10.2,<0.11
-    - robotframework-interpreter  >=0.6.2,<0.7
+    - xeus-python >=0.11.1,<0.12
+    - robotframework-interpreter  >=0.6.3,<0.7
     - robotframework-lsp
     - jupyterlab_robotmode
 

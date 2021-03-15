@@ -8,35 +8,20 @@ jobs:
     vmImage: macOS-10.15
   strategy:
     matrix:
-      osx_64_python3.7.____cpythonvariantdefault:
-        CONFIG: osx_64_python3.7.____cpythonvariantdefault
+      osx_64_python3.7.____cpython:
+        CONFIG: osx_64_python3.7.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.7.____cpythonvariantstatic:
-        CONFIG: osx_64_python3.7.____cpythonvariantstatic
+      osx_64_python3.8.____cpython:
+        CONFIG: osx_64_python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.8.____cpythonvariantdefault:
-        CONFIG: osx_64_python3.8.____cpythonvariantdefault
+      osx_64_python3.9.____cpython:
+        CONFIG: osx_64_python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.8.____cpythonvariantstatic:
-        CONFIG: osx_64_python3.8.____cpythonvariantstatic
+      osx_arm64_python3.8.____cpython:
+        CONFIG: osx_arm64_python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.9.____cpythonvariantdefault:
-        CONFIG: osx_64_python3.9.____cpythonvariantdefault
-        UPLOAD_PACKAGES: 'True'
-      osx_64_python3.9.____cpythonvariantstatic:
-        CONFIG: osx_64_python3.9.____cpythonvariantstatic
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_python3.8.____cpythonvariantdefault:
-        CONFIG: osx_arm64_python3.8.____cpythonvariantdefault
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_python3.8.____cpythonvariantstatic:
-        CONFIG: osx_arm64_python3.8.____cpythonvariantstatic
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_python3.9.____cpythonvariantdefault:
-        CONFIG: osx_arm64_python3.9.____cpythonvariantdefault
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_python3.9.____cpythonvariantstatic:
-        CONFIG: osx_arm64_python3.9.____cpythonvariantstatic
+      osx_arm64_python3.9.____cpython:
+        CONFIG: osx_arm64_python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
 

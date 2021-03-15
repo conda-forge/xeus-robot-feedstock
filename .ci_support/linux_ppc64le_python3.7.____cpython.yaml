@@ -24,7 +24,5 @@ python:
 - 3.7.* *_cpython
 target_platform:
 - linux-ppc64le
-variant:
-- default
 zeromq:
 - 4.3.3

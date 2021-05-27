@@ -1,6 +1,6 @@
 {% set name = "xeus-robot" %}
-{% set version = "0.3.3" %}
-{% set sha256 = "cca5157671382d2d875e141469a732240d035e8c68b9aecfb256e47e607443b5" %}
+{% set version = "0.3.4" %}
+{% set sha256 = "51c7f5d564cd4385c207505cb3f79cb2991a2e44d2ed9526f680f29af3e9c137" %}
 
 package:
   name: {{ name|lower }}
@@ -30,8 +30,8 @@ requirements:
     - zeromq
     - xtl >=0.7.0,<0.8
     - python
-    - xeus >=1.0.1,<2.0
-    - xeus-python >=0.12.1,<0.13
+    - xeus =1.0.1
+    - xeus-python >=0.12.4,<0.13
     - pybind11 >=2.2.4,<3.0
     - nlohmann_json >=3.3.0,<4.0
     - pybind11_json >=0.2.2,<0.3

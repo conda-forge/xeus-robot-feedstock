@@ -30,7 +30,7 @@ requirements:
     - zeromq
     - xtl >=0.7.0,<0.8
     - python
-    - xeus =1.0.1
+    - xeus
     - xeus-python >=0.12.4,<0.13
     - pybind11 >=2.2.4,<3.0
     - nlohmann_json >=3.3.0,<4.0

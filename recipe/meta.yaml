@@ -1,6 +1,6 @@
 {% set name = "xeus-robot" %}
-{% set version = "0.3.4" %}
-{% set sha256 = "51c7f5d564cd4385c207505cb3f79cb2991a2e44d2ed9526f680f29af3e9c137" %}
+{% set version = "0.3.5" %}
+{% set sha256 = "a637ea2e5bd2451efb8c64809417ef85598bc1c5c19576fc3d450f997d41f82c" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: true  # [py36]
   run_exports:
     - {{ pin_subpackage(name, max_pin='x.x') }}

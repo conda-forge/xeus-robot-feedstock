@@ -1,6 +1,6 @@
 {% set name = "xeus-robot" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "1f1dcbcc7a17a545c269c93de82ceef7c79e67ceaae8018c396f2219f898be77" %}
+{% set version = "0.4.1" %}
+{% set sha256 = "a8143447153905218292b267894b0f999535159d3f1f61ab27ef10ea16245870" %}
 
 package:
   name: {{ name|lower }}
@@ -32,7 +32,7 @@ requirements:
     - python
     - xeus >=2.0,<3.0
     - xeus-python >=0.13.0,<0.14
-    - pybind11 >=2.2.4,<3.0
+    - pybind11 >=2.6.1,<3.0
     - nlohmann_json >=3.3.0,<4.0
     - pybind11_json >=0.2.2,<0.3
   run:
